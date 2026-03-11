@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react"
+
+import React,{ useState, useEffect } from "react"
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 import EventInfo from "./pages/EventInfo"
 import RegistrationForm from "./pages/RegistrationForm"
