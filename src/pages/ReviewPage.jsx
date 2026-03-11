@@ -11,7 +11,7 @@ export default function ReviewPage({ formData, setIsRegistered }) {
   }
 
   return (
-    <div>
+    <div className="page">
       <h2>Review Your Details</h2>
       <p><strong>Name:</strong> {formData.fullName}</p>
       <p><strong>Email:</strong> {formData.email}</p>

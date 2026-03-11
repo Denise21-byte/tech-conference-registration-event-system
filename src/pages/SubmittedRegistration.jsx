@@ -14,7 +14,7 @@ export default function SubmittedRegistration({ setIsRegistered }) {
   if (!saved) return <p>No registration found.</p>
 
   return (
-    <div>
+    <div className="page">
       <h2>You're Already Registered! ✅</h2>
       <p><strong>Name:</strong> {saved.fullName}</p>
       <p><strong>Email:</strong> {saved.email}</p>

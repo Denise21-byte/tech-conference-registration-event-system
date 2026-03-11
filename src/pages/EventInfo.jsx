@@ -6,14 +6,14 @@ export default function EventInfo({ isRegistered }) {
 
   const handleRegisterClick = () => {
     if (isRegistered) {
-      navigate("/my-registration") // returning user
+      navigate("/my-registration")
     } else {
-      navigate("/register") // new user
+      navigate("/register")
     }
   }
 
   return (
-    <div>
+    <div className="page">
       <h1>Tech Innovation Conference 2025</h1>
       <p>📅 Date: August 15, 2025</p>
       <p>📍 Location: Convention Center, Nairobi</p>

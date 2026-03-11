@@ -17,7 +17,7 @@ export default function RegistrationForm({ formData, setFormData }) {
   }
 
   return (
-    <div>
+    <div className="page">
       <h2>Register for the Conference</h2>
       <input name="fullName" placeholder="Full Name" value={formData.fullName} onChange={handleChange} />
       <input name="email" placeholder="Email" value={formData.email} onChange={handleChange} />
